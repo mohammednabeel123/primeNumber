@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Numbers checker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <div id="Calculatorwrap">
+      <div>Prime Number Calculator</div>
+      <div class="CalculatorInputs">
+        <div class="CalculatorInputGroup">
+          <label for="x">Is this Number Prime or Composite&#63;</label>
+          <br />
+          <br />
+          <input
+            name="x"
+            id="x"
+            value=""
+            class="labelsInput"
+            size="10"
+            maxlength="14"
+            required
+          />
+        </div>
+        <div id="notearea"></div>
+        <div class="CalculateButton floatright">
+          <input
+            type="submit"
+            value="Calculate"
+            class="btn"
+            name="CalculateButton"
+            id="CalculateButton"
+          />
+          <input
+            type="reset"
+            name="reset"
+            value="Clear"
+            class="btn"
+            id="clearButton"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
